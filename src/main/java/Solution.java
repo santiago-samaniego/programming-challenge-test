@@ -5,7 +5,7 @@ public class Solution {
      */
     public int add(int a, int b) {
         //replace 0  with your implementation
-        return 0;
+        return a + b;
         //throw new UnsupportedOperationException("Not implemented yet");
     }
 
@@ -14,7 +14,7 @@ public class Solution {
      */
     public int subtract(int a, int b) {
         // replace 0  with your implementation
-        return 0;
+        return a-b;
         //throw new UnsupportedOperationException("Not implemented yet");
     }
 
@@ -23,7 +23,7 @@ public class Solution {
      */
     public int multiply (int a, int b){
         // replace 0  with your implementation
-        return 0;
+        return a*b;
     }
 
     /**
@@ -32,7 +32,7 @@ public class Solution {
 
     public double divide (int a, int b){
         // replace 0.0  with your implementation
-        return 0;
+        return a/b;
     }
 
     /**
@@ -40,7 +40,7 @@ public class Solution {
      */
     public String concatenate (String word1, String word2){
         // replace ""  with your implementation
-        return "";
+        return word1 + word2;
     }
 
 
@@ -53,7 +53,11 @@ public class Solution {
  */
     public int transform(int a) {
         // replace 0 with your implementation
-        return 0;
+        int x = 0;
+        x += 4;
+        x *= 3;
+        x -= a;
+        return x;
     }
 
     public static void main(String[] args) {
