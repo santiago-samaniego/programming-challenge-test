@@ -32,7 +32,8 @@ public class Solution {
 
     public double divide (int a, int b){
         // replace 0.0  with your implementation
-        return a/b;
+        
+        return (double)a/b;
     }
 
     /**
@@ -53,10 +54,11 @@ public class Solution {
  */
     public int transform(int a) {
         // replace 0 with your implementation
-        int x = 0;
+        int x = a;
         x += 4;
         x *= 3;
         x -= a;
+        
         return x;
     }
 
